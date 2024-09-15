@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&display=swap');
+
 .header{
-    width: 500px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    background: green;
-    width: 1000px;
+    justify-content: center;
+    background: rgba(71,255,57,1);
+    gap: 150px;
 
     .header__item{
         font-size: 48px;
         cursor: pointer;
+        text-decoration: none;
+        font-family: Playwrite CU;
+        color: aliceblue;
     }
 }

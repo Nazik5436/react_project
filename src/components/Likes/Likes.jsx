@@ -1,9 +1,9 @@
-
+import "./Likes.scss"
 
 export const Likes = () => {
 
     return(
-        <div>
+        <div className="animals__osnova">
             Its List
         </div>
     )   
