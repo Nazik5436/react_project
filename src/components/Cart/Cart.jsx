@@ -13,7 +13,7 @@ export const Cart = () => {
                 <li className="li">Email: info@zoo.com</li>
             </ul>
             <h2 className="second__title">Call to Action: Contact us to book a tour or with any questions. We look forward to seeing you!</h2>
-            <button className="home_but">Contact us</button>
+            <button className="cont_but">Contact us</button>
         </div>
     )   
 };

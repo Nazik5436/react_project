@@ -28,7 +28,7 @@
         padding: 0px 0px 0px 45px;
     }
 
-    .home_but{
+    .cont_but{
         width: 415px;
         height: 80px;
         border-radius: 45px;
@@ -45,7 +45,7 @@
         transition: transform 0.25s;
     }
 
-    .home_but:hover{
+    .cont_but:hover{
         transform: scale(1.1);
     }
 }
