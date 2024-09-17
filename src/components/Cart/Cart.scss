@@ -4,6 +4,7 @@
 .contacts{
     background: rgb(53,205,75);
     background: radial-gradient(circle, rgba(53,205,75,1) 0%, rgba(37,0,255,1) 100%);
+    height: 800px;
     font-family: Playpen Sans;
     text-shadow: 1px 1px 2px pink;
     color: azure;
@@ -16,6 +17,36 @@
     .con__par{
         padding: 0px 0px 0px 45px;
         font-size: 25px;
+    }
+
+    .li{
+        padding: 0px 0px 0px 45px;
+        font-size: 25px;
+    }
+
+    .second__title{
+        padding: 0px 0px 0px 45px;
+    }
+
+    .home_but{
+        width: 415px;
+        height: 80px;
+        border-radius: 45px;
+        border: 5px dashed white;
+        color: white;
+        font-style: italic;
+        background: rgba(255, 192, 203, 0.253);
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        margin: 0 auto;
+        margin-top: 110px;
+        transition: transform 0.25s;
+    }
+
+    .home_but:hover{
+        transform: scale(1.1);
     }
 }
 
