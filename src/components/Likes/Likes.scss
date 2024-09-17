@@ -1,5 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
 .animals__osnova{
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 45%, rgba(71,255,57,1) 100%);
-    height: 1750px;
+    background: rgb(53,205,75);
+    background: radial-gradient(circle, rgba(53,205,75,1) 0%, rgba(37,0,255,1) 100%);
+    font-family: Playpen Sans;
+    height: 3200px;
+
+
+    .article{
+        display: flex;
+        justify-content: space-around;
+
+
+        .logo_img{
+            padding: 35px;
+            border-radius: 80%;
+        }
+    }
+
+    .anm__title{
+        color: azure;
+        text-shadow: 1px 1px 2px pink;
+        font-size: 50px;
+        padding: 35px 0px 0px 35px;
+    }
+
+    .anm__par{
+        color: azure;
+        text-shadow: 1px 1px 2px pink;
+        font-size: 25px;
+        width: 600px;
+        padding: 0px 0px 0px 35px;
+    }
+
+    .anm__second__title{
+        color: azure;
+        text-shadow: 1px 1px 2px pink;
+        font-size: 50px;
+        padding: 35px 0px 0px 35px;
+    }
+
+    .li{
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+
+        .anm__third__title{
+            color: azure;
+            text-shadow: 1px 1px 2px pink;
+            font-size: 25px;
+            width: 500px;
+        }
+
+        .anm__img{
+            width: 600px;
+            border-radius: 18px;
+            margin-bottom: 55px;
+        }
+    }
+
+    .second__article{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+
+        .daf{
+            border-radius: 18px;
+            width: 450px;
+            height: 600px;
+        }
+    }
+
+    .thiird__article{
+        padding-top: 70px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+
+        .anm_but{
+            width: 415px;
+            height: 80px;
+            border-radius: 45px;
+            border: 5px dashed white;
+            color: white;
+            font-style: italic;
+            background: rgba(255, 192, 203, 0.253);
+            font-size: 35px;
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+            margin: 0 auto;
+            margin-top: 50px;
+            transition: transform 0.25s;
+        }
+    
+        .anm_but:hover{
+            transform: scale(1.1);
+        }
+    }
 }

@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 
 .osnova{
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 45%, rgba(71,255,57,1) 100%);
+    background: rgb(53,205,75);
+    background: radial-gradient(circle, rgba(53,205,75,1) 0%, rgba(37,0,255,1) 100%);
+    font-family: Playpen Sans;
     height: 1750px;
 
     .title{
-        color: rgba(50, 147, 50, 0.896);
-        font-family: Protest Guerrilla;
+        color: azure;
         font-style: italic;
         font-size: 65px;
         padding: 100px 0px 70px 0px;
@@ -27,7 +28,6 @@
         .left__article{
             .par{
                 color: azure;
-                font-family: Playwrite CU;
                 text-shadow: 1px 1px 2px pink;
                 font-size: 30px;
                 width: 600px;
@@ -57,10 +57,9 @@
 
     .footer__par{
         color: azure;
-        font-family: Playwrite CU;
         text-shadow: 1px 1px 2px pink;
         font-size: 50px;
-        padding-top: 65px;
+        padding-top: 90px;
         margin: auto;
         text-align: center;
         width: 700px;
@@ -71,16 +70,15 @@
         height: 80px;
         border-radius: 45px;
         border: 5px dashed white;
-        font-family: sans-serif;
         color: white;
         font-style: italic;
         background: rgba(255, 192, 203, 0.253);
         font-size: 35px;
         display: flex;
         justify-content: center;
-        padding-top: 15px;
+        padding-top: 8px;
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 110px;
         transition: transform 0.25s;
     }
 

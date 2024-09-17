@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+
+.contacts{
+    background: rgb(53,205,75);
+    background: radial-gradient(circle, rgba(53,205,75,1) 0%, rgba(37,0,255,1) 100%);
+    font-family: Playpen Sans;
+    text-shadow: 1px 1px 2px pink;
+    color: azure;
+
+    .title{
+        padding: 45px 0px 0px 45px;
+        font-size: 50px;
+    }
+
+    .con__par{
+        padding: 0px 0px 0px 45px;
+        font-size: 25px;
+    }
+}
+

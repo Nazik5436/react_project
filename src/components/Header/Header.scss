@@ -4,7 +4,8 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    background: rgba(71,255,57,1);
+    background: rgb(53,205,75);
+    background: radial-gradient(circle, rgba(53,205,75,1) 0%, rgba(37,0,255,1) 100%);
     gap: 150px;
 
     .header__item{
