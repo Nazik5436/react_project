@@ -1,0 +1,11 @@
+@mixin field{
+    width: 336px;
+    border-radius: 8px;
+    border: none;
+    background:  rgb(238, 238, 238);
+    color: rgb(85, 85, 85);
+    font-family: Poppins;
+    font-size: 14px;
+    padding: 15px 22px;
+    margin-top: 10px;
+}
