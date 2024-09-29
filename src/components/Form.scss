@@ -22,7 +22,7 @@
     .grid_container{
         display: inline-grid;
         grid-template-rows: 80px 40px 40px 40px;
-        grid-row-gap: 70px;
+        grid-row-gap: 80px;
         grid-template-columns: auto auto;
         grid-column-gap: 52px;
         padding: 0px 40px 70px 40px ;
@@ -67,6 +67,34 @@
             }
         }
 
+        .fifth__item{
+            grid-row: 3;
+            grid-column: 2;
+
+            .block{
+                @include field;
+            }
+        }
+
+        .sixth__item{
+            grid-row: 2;
+            grid-column: 2;
+
+            .block{
+                @include field;
+            }
+        }
+
+        .seventh__item{
+            grid-row: 4;
+            grid-column: 2;
+
+            .block{
+                @include field;
+            }
+        }
+
+    
         .but__item{
             grid-row: 6;
             grid-column: 1;
